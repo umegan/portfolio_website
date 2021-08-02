@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio Website</title>
+</head>
+<body>
+    
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">An</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <!-- <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li> -->
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="1-main">
+
+        
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">An</span><br>a Student</h1>
+                
+                <a href="#" class="button">Contact</a>
+            </div>
+            
+            <div class="home__social">
+                <a href="https://github.com/umegan" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> -->
+                <!-- <a href="" class="home__social-icon"><i><img src="assets/img/mark_visit.png" alt="wantedly"></i></a> -->
+            </div>
+            
+            <div class="home__img">    
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+        </section>
+        
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">Nguyen Thanh An</h2>
+                    <p class="about__text">2001年ベトナム生まれ、2016年に来日し現在は東京工科大学
+                        コンピューターサイエンス学部人工知能専攻の2年生。<br>
+                        現在は、機械学習や深層学習について興味を持ちscikit-learnとTensorFlowについて勉強しています。
+                        得に画像認識は現実世界に応用しやすく面白いそうなので、こちらの分野のお仕事に就いてみたいです。</p>
+                </div>                                   
+            </div>
+        </section>
+        
+        <section class="work section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work2.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work3.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work4.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work5.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">An</p>
+    
+        <p>&#169; 2020 Nguyen Thanh An</p>
+    </footer>
+
+    <!-- SCOLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
