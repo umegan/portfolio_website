@@ -315,10 +315,32 @@ img{
 }
 .work__img img{
   transition: 1s;
-  cursor: pointer;
 }
 .work__img img:hover{
   transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.work__img:hover .middle{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.work__img p {
+  background-color: var(--first-color);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /* ===== CONTACT =====*/
