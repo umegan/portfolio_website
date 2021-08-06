@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+         <input type="text" name="name" placeholder=""/>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+    </form>
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        
+        <div class="contact__container bd-grid">
+            <form action="https://formsubmit.co/gemu.nguyenan@gmail.com" method="POST" class="contact__form">
+                <p>
+                    <input type="text" placeholder="Name" class="contact__input" required>
+                </p>
+                <p>
+                    <input type="email" placeholder="Email" class="contact__input" required>
+                </p>
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <button type="submit" value="Send" class="contact__button button">Send</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
